@@ -19,8 +19,8 @@ Then, once you run it, the program will generate the $P_n, P^2_n, F_3(P_n)$ and 
 
 ![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/Python_results.png)
 
-When the program is finished running, you should see $8$ files in the same folder as your python file, that is, the $P_n, P^2_n, F_3(P_n)$ and F3^2(Pn) both in .gml and .html files.
-We recommend storing them on a folder called Pn (where n is a number)
+When the program is finished running, you should see $8$ files in the same folder as your python file, that is, the $P_n, P^2_n, F_3(P_n)$ and $F_3^2(Pn)$ both in .gml and .html files.
+We recommend storing them on a folder called Pn (where $n$ is a positive integer)
 
 ![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/Python_results_2.png)
 
@@ -31,13 +31,13 @@ You can open any html file on any web browser and you should see that graph on y
 
 
 ## The Wolfram Mathematica file ("Generate CSV.nb")
-### This file is for calculating the GDM (Graph Distance Matrix) of the F3(Pn) graph and store it on a .csv file
+### This file is for calculating the GDM (Graph Distance Matrix) of the $F_3(P_n)$ graph and store it on a .csv file
 
 The .nb file works with the .gml files generated in the previous step, so you should change the first line of the file so that it is your own PC's path to the F3.gml file that you want to calculate the GDM for
 
 ![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/First_line_of_mathematica_file.png)
 
-You should also change the 4th input line, that is, the name of the .csv file you want Wolfram Mathematica to generate, just change the P12 number with your current n, so that the c++ file works.
+You should also change the 4th input line, that is, the name of the .csv file you want Wolfram Mathematica to generate, just change the $P_{12}$ number with your current $n$, so that the $C++$ file works.
 
 ![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/4th_line_mathematica.png)
 
@@ -49,12 +49,12 @@ Remember to wait until every line is evaluated, that is, until the last output l
 
 ![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/Mathematica_results2.png)
 
-Then, you will have your GDM file ready for the C++ file to use it
+Then, you will have your GDM file ready for the $C++$ file to use it
 
-## The c++ file ("Calculate_lower_bound.cpp")
+## The C++ file ("Calculate_lower_bound.cpp")
 ### This file is for computing the lower bounds of the packing number of 3 token graph of path graph
 
-For this file to work correctly, you should change the 13th, 16th and 19th lines of the file with your own data, that is, the number of nodes of the F3(Pn) graph you will be using, the ID of the node you want in the second position (we got the best results using 0, 1 and 2) and the n number of the GDM_F3(Pn).csv file you are using
+For this file to work correctly, you should change the 13th, 16th and 19th lines of the file with your own data, that is, the number of nodes of the $F_3(P_n)$ graph you will be using, the ID of the node you want in the second position (we got the best results using 0, 1 and 2) and the $n$ number of the GDM_F3(Pn).csv file you are using
 
 ![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/cpp_changes.png)
 
