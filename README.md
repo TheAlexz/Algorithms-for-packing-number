@@ -53,5 +53,8 @@ Then, you will have your GDM file ready for the C++ file to use it
 ## The c++ file
 ### This file is for computing the lower bounds of the packing number of 3 token graph of path graph
 
-For this file to work correctly, you should change the 13th, 16th and 19th lines of the file with your own data, that is, the number of nodes of the 
+For this file to work correctly, you should change the 13th, 16th and 19th lines of the file with your own data, that is, the number of nodes of the F3(Pn) graph you will be using, the ID of the node you want in the second position (we got the best results using 0, 1 and 2) and the n number of the GDM_F3(Pn).csv file you are using
+
+![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/cpp_changes.png)
+
 
