@@ -57,4 +57,7 @@ For this file to work correctly, you should change the 13th, 16th and 19th lines
 
 ![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/cpp_changes.png)
 
+Then you will be ready to run the program, once it's finished, the program will tell you at which row it found the best packing number, the cardinality of it, the ID's of the nodes in it and the time taken by the program to process the whole .csv file to find the best packing set.
+
+![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/cpp_results.png)
 
