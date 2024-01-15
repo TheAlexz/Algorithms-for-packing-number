@@ -15,8 +15,8 @@ const ulli F3Pn_nodes = 220;
 //Which node do you want in the second position?
 int second_position_node = 0;
 
-//What's the n number of the GDM_F3(Pn) file?
-string n_number = "12";
+//What's the file path of the GDM_F3(Pn) file?
+string filename = "C:/Users/Joel9/Documents/Investigacion Grafos/Packing and 3token graphs/GDM/GDM_F3(P12).csv";
 
 ulli GDM[F3Pn_nodes][F3Pn_nodes];
 
@@ -44,17 +44,13 @@ void readFromFile(const string& FileName) {
 //Read the csv file 
 void read_record()
 {
-    
-    string filename = "./GDM/GDM_F3(P" + n_number + ").csv";
-
     // Call readFromFile function to read the csv file and fill the GDM array
-    readFromFile(filename);
-    
+    readFromFile(filename);    
     
     fstream fin;
   
     // Open an existing file
-    fin.open("./GDM/GDM_F3(P" + n_number + ").csv");    
+    fin.open(filename);    
   
     // Read the Data from the file
     // as String Vector
