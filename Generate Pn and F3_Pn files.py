@@ -1,14 +1,7 @@
-import random
 import time
-from networkx.algorithms.operators.unary import complement
-import visualizegraph
 import networkx as nx
-import matplotlib.pyplot as plt
-
 import itertools
 from pyvis.network import Network
-from graph_utils import Graph
-from networkx.algorithms import approximation
 
 Pn = int(input("Which Pn and F3Pn files do you want to generate? Enter n (as a number): "))
 
