@@ -16,3 +16,7 @@ The second you run it, the program will ask which Pn and F3Pn files do you want 
 Then, once you run it, the program will generate the Pn, Pn^2, F3(Pn) and F3^2(Pn) graphs automatically and then store them both in a .gml and .html files
 
 ![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/Python_results.png)
+
+When the program is finished, you should see 8 files in the same folder as your python file, that is, the Pn, Pn^2, F3(Pn) and F3^2(Pn) both in .gml and .html files
+
+![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/Python_results_2.png)
