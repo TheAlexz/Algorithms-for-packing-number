@@ -11,4 +11,4 @@ Once you have your libraries correctly installed, you just have to run the pytho
 
 The second you run it, the program will ask which Pn and F3Pn files do you want to generate? You just have to enter the n as a number and hit enter (e.g. 12) 
 
-![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Python%20question.png)
+![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Python_question.png)
