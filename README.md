@@ -32,3 +32,5 @@ You can open any html file on any web browser and you should see that graph on y
 
 The .nb file works with the .gml files generated in the previous step, so you should change the first line of the file so that it is your own PC's path to the F3.gml file that you want to calculate the GDM for
 
+![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/First_line_of_mathematica_file.png)
+
