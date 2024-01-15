@@ -36,3 +36,8 @@ The .nb file works with the .gml files generated in the previous step, so you sh
 
 ![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/First_line_of_mathematica_file.png)
 
+You should also change the name of the .csv file you want Wolfram Mathematica to generate, just change the P12 number with your current n, so that the c++ file works.
+
+![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/4th_line_mathematica.png)
+
+
