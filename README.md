@@ -44,7 +44,12 @@ Once you are done with these two steps, you are ready to run the Wolfram Mathema
 
 ![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/Mathematica_results1.png)
 
-Remember to wait until every line is evaluated, that is, until the last output line shows the
+Remember to wait until every line is evaluated, that is, until the last output line shows the correct name of the .csv file you are generating
+
+![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/Mathematica_results2.png)
+
+Then, you will have your GDM file ready for the C++ file to use it
+
 
 
 
