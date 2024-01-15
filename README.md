@@ -53,5 +53,5 @@ Then, you will have your GDM file ready for the C++ file to use it
 ## The c++ file
 ### This file is for computing the lower bounds of the packing number of 3 token graph of path graph
 
-
+For this file to work correctly, you should change the 13th, 16th and 19th lines of the file with your own data, that is, the number of nodes of the 
 
