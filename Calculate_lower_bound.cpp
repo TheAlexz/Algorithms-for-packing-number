@@ -9,16 +9,16 @@ typedef long long int lli;
 typedef unsigned long long int ulli;
 typedef vector<long long int> vlli;
 
-//How many nodes does the G graph have?
-const ulli G_nodes = 560;
+//How many nodes does the F3(Pn) graph have?
+const ulli F3Pn_nodes = 220;
 
 //Which node do you want in the second position?
-int second_position_node = 2;
+int second_position_node = 0;
 
 //What's the n number of the GDM_F3(Pn) file?
-string n_number = "16";
+string n_number = "12";
 
-ulli GDM[G_nodes][G_nodes];
+ulli GDM[F3Pn_nodes][F3Pn_nodes];
 
 // Function to fill the GDM array with the values of the .csv file
 void readFromFile(const string& FileName) {
