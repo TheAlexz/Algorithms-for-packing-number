@@ -2,7 +2,7 @@
 
 This work only needs three files, which are to be run on python, Wolfram Mathematica and c++.
 
-## Libraries needed
+## Libraries needed for the python file
 
-### For the python file
+![alt text](Libraries needed for the python file.png)
 
