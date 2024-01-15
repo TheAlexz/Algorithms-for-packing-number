@@ -4,7 +4,7 @@ from networkx.algorithms.operators.unary import complement
 import visualizegraph
 import networkx as nx
 import matplotlib.pyplot as plt
-import blossom
+
 import itertools
 from pyvis.network import Network
 from graph_utils import Graph
@@ -21,12 +21,10 @@ num_node_G = Pn
 for i in range(1,num_node_G):
     vertices_G[int(i), int(i+1)] = 0
 
-#Graph G
-graph = blossom.Graph()    
+#Graph G   
 G = nx.Graph()
 
-#Graph CU_2(G)
-graph_F3 = blossom.Graph()    
+#Graph CU_2(G) 
 F3 = nx.Graph()
 
 vectotal = []
@@ -42,13 +40,8 @@ edges = []
 for (x, _) in vertices_G.items():
     edges.append([x[0], x[1]])
     G.add_edge(x[0], x[1], color="black")
-    graph.add_edge((x[0], x[1]))
-
 
 vector = list(itertools.combinations(vectotal, 3))
-
-contverticesF3=0
-
 
 #Generate F3(G)
 for i in range(0, len(vector)):
@@ -70,10 +63,10 @@ for i in range(0, len(vector)):
 
                 #Add the edge (i,j) to F3(G)
                 F3.add_edge(i, j, color="black")
-                graph_F3.add_edge((i, j))
-                contverticesF3 += 1
+                
+                
 
-contverticesF3 = len(graph_F3.get_vertices())
+
 
 #options for the visualization of the G graph on html
 color = [G[u][v]["color"] for u, v in G.edges()]
