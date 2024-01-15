@@ -19,7 +19,8 @@ Then, once you run it, the program will generate the Pn, Pn^2, F3(Pn) and F3^2(P
 
 ![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/Python_results.png)
 
-When the program is finished, you should see 8 files in the same folder as your python file, that is, the Pn, Pn^2, F3(Pn) and F3^2(Pn) both in .gml and .html files
+When the program is finished, you should see 8 files in the same folder as your python file, that is, the Pn, Pn^2, F3(Pn) and F3^2(Pn) both in .gml and .html files.
+We recommend storing them on a folder called Pn (where n is a number)
 
 ![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/Python_results_2.png)
 
@@ -27,7 +28,7 @@ You can open any html file on any web browser and you should see that graph on y
 
 ![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/P8_html.png)
 
-We recommend storing them on a folder called Pn (where n is a number)
+
 
 ## The Wolfram Mathematica file ("Generate CSV.nb")
 ### This file is for calculating the GDM (Graph Distance Matrix) of the F3(Pn) graph and store it on a .csv file
