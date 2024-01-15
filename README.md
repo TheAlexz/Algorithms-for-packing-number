@@ -1,6 +1,6 @@
 # ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH.
 
-This work only needs three files, which should be run on python, Wolfram Mathematica and c++.
+This work only needs three files, which should be run on python, Wolfram Mathematica and $C++$.
 
 ## Libraries needed for the python file
 
@@ -20,7 +20,7 @@ Then, once you run it, the program will generate the $P_n, P^2_n, F_3(P_n)$ and 
 ![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/Python_results.png)
 
 When the program is finished running, you should see $8$ files in the same folder as your python file, that is, the $P_n, P^2_n, F_3(P_n)$ and $F_3^2(P_n)$ both in .gml and .html files.
-We recommend storing them on a folder called Pn (where $n$ is a positive integer)
+We recommend storing them on a folder called $Pn$ (where $n$ is a positive integer)
 
 ![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/Python_results_2.png)
 
