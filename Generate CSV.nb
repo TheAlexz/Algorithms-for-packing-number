@@ -24,7 +24,7 @@ Cell[BoxData[
  RowBox[{"g", "=", 
   RowBox[{
   "Import", "[", 
-   "\"\<C:\\\\Users\\\\Joel9\\\\Documents\\\\Investigacion Cristophe Grafos\\\
+   "\"\<C:\\\\Users\\\\Joel9\\\\Documents\\\\Investigacion Grafos\\\
 \\Packing and 3token graphs\\\\Archivos Pn\\\\P10\\\\F3.gml\>\"", 
    "]"}]}]], "Input",
  CellChangeTimes->{{3.909264945350356*^9, 3.909264945353347*^9}, {
