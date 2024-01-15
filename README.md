@@ -40,7 +40,7 @@ You should also change the 4th input line, that is, the name of the .csv file yo
 
 ![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/4th_line_mathematica.png)
 
-Once you are done with these two steps, you are ready to run the Wolfram Mathematica file, for that, hit the Evaluation button on the program's tab and then hit the Evaluate notebook button as shown
+Once you are done with these two steps, you are ready to run the Wolfram Mathematica file, for that, hit the "Evaluation" button on the program's tab and then hit the "Evaluate notebook" button as shown
 
 ![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/Mathematica_results1.png)
 
@@ -50,6 +50,8 @@ Remember to wait until every line is evaluated, that is, until the last output l
 
 Then, you will have your GDM file ready for the C++ file to use it
 
+## The c++ file
+### This file is for computing the lower bounds of the packing number of 3 token graph of path graph
 
 
 
