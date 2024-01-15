@@ -27,6 +27,8 @@ You can open any html file on any web browser and you should see that graph on y
 
 ![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/P8_html.png)
 
+We recommend storing them on a folder called Pn (where n is a number)
+
 ## The Wolfram Mathematica file
 ### This file is for calculating the GDM (Graph Distance Matrix) of the F3(Pn) graph and store it on a .csv file
 
