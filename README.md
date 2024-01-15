@@ -6,4 +6,6 @@ This work only needs three files, which are to be run on python, Wolfram Mathema
 
 ![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Libraries%20needed%20for%20the%20python%20file.png)
 
+## The python file
+Once you have your libraries correctly installed, you just have to run the python file
 
