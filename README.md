@@ -6,7 +6,7 @@ This work only needs three files, which are to be run on python, Wolfram Mathema
 
 ![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/Libraries%20needed%20for%20the%20python%20file.png)
 
-## The python file
+## The python file ("Generate Pn and F3_Pn files.py")
 ### This file is for generating the Pn, Pn^2, F3(Pn) and F3^2(Pn) graphs automatically and then store them both in a .gml and .html files
 
 Once you have your libraries correctly installed, you just have to run the python file.
@@ -29,7 +29,7 @@ You can open any html file on any web browser and you should see that graph on y
 
 We recommend storing them on a folder called Pn (where n is a number)
 
-## The Wolfram Mathematica file
+## The Wolfram Mathematica file ("Generate CSV.nb")
 ### This file is for calculating the GDM (Graph Distance Matrix) of the F3(Pn) graph and store it on a .csv file
 
 The .nb file works with the .gml files generated in the previous step, so you should change the first line of the file so that it is your own PC's path to the F3.gml file that you want to calculate the GDM for
@@ -50,7 +50,7 @@ Remember to wait until every line is evaluated, that is, until the last output l
 
 Then, you will have your GDM file ready for the C++ file to use it
 
-## The c++ file
+## The c++ file ("Calculate_lower_bound.cpp")
 ### This file is for computing the lower bounds of the packing number of 3 token graph of path graph
 
 For this file to work correctly, you should change the 13th, 16th and 19th lines of the file with your own data, that is, the number of nodes of the F3(Pn) graph you will be using, the ID of the node you want in the second position (we got the best results using 0, 1 and 2) and the n number of the GDM_F3(Pn).csv file you are using
