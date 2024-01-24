@@ -22,7 +22,7 @@ Then, once you run it, the program will generate the $P_n, F_3(P_n)$ and $F_3^2(
 When the program is finished running, you should see $6$ files in the same folder as your python file, that is, the $P_n, F_3(P_n)$ and $F_3^2(P_n)$ both in .gml and .html files.
 We recommend storing them on a folder called $Pn$ (where $n$ is a positive integer)
 
-![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/Python_results_2.png)
+![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/Python_results2.png)
 
 You can open any html file with any web browser and you should see that graph on your window, you are free to move each node with your cursor in a dynamic way
 
@@ -72,7 +72,7 @@ Then, once you run it, the program will generate the $P_n, F_3(P_n)$ and $F_3^2(
 When the program is finished running, you should see $6$ files in the same folder as your python file, that is, the $P_n, F_3(P_n)$ and $F_3^2(P_n)$ both in .gml and .html files.
 We recommend storing them on a folder called $Pn$ (where $n$ is a positive integer)
 
-![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/Python_results_2.png)
+![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/Python_results2.png)
 
 You can open any html file with any web browser and you should see that graph on your window, you are free to move each node with your cursor in a dynamic way
 
