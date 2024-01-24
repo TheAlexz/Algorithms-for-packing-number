@@ -1,4 +1,4 @@
-# ALGORITHMS-FOR-COMPUTING-THE-EXACT-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH.
+# ALGORITHMS-FOR-COMPUTING-THE-EXACT-VALUE-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH.
 
 For computing the exact packing number of 3 token graph of path graph $P_n$ with n $\le 12$ , only three files are needed, which should be run on python and Wolfram Mathematica.
 
