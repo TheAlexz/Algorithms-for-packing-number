@@ -102,7 +102,7 @@ Remember to wait until every line is evaluated, that is, until the last output l
 Then, you will have your GDM file ready for the $C++$ file to use it
 
 ## The C++ file ("Calculate_lower_bound.cpp")
-### This file is for computing the lower bound for packing number of 3 token graph of path graph
+### This file is for computing a lower bound for packing number of 3 token graph of path graph
 
 For this file to work correctly, you should change the 13th, 16th and 19th lines of the file with your own data, that is, the number of nodes of the $F_3(P_n)$ graph you will be using, the ID of the node you want in the second position (we got the best results using $0$, $1$ and $2$) and the $n$ number of the GDM_F3(Pn).csv file you are using
 
