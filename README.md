@@ -29,7 +29,7 @@ You can open any html file with any web browser and you should see that graph on
 ![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/P8_html.png)
 
 
-## The Wolfram Mathematica file ("Generate CSV.nb")
+## The Wolfram Mathematica file ("Find exact value.nb")
 ### This file is for calculating the exact value for the packing number of the $F_3(P_n)$ graph (e.g., the independence number of the $F_3^2(P_n)$ graph) and visualize the corresponding vertices of that packing set
 
 The .nb file works with the .gml files generated in the previous step, so you should change the first and fourth lines of the file so that it is your own PC's path to the F3square.gml and F3.gml files, respectively, that you want to calculate the exact packing number for
