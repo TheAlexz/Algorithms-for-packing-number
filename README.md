@@ -44,7 +44,7 @@ Then, once it's completed running, it will show the maximum packing set vertices
 
 ![alt text](https://github.com/TheAlexz/Algorithms-for-packing-number/blob/main/Images/Exact_value_mathematica.png)
 
-Finally, for a visual representation, the third and fifth output lines will show the $F_3(P_n) and F_3^2(P_n) graphs$ with its corresponding maximum independent and packing vertices, respectively, highlighted.
+Finally, for a visual representation, the third and fifth output lines will show the $F_3(P_n)$ and $F_3^2(P_n)$ graphs with its corresponding maximum independent and packing vertices, respectively, highlighted.
 
 ![alt text](https://github.com/TheAlexz/Algorithms-for-packing-number/blob/main/Images/Visualize_exact_values_mathematica.png)
 
