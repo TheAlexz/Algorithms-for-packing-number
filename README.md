@@ -1,6 +1,56 @@
-# ALGOS-FOR-COMPUTING-A-LOWER-BOUND-FOR-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH.
+# ALGORITHMS-FOR-COMPUTING-THE-EXACT-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH.
 
-This work only needs three files, which should be run on python, Wolfram Mathematica and $C++$.
+For computing the exact packing number of 3 token graph of path graph $P_n$ with n$le 12#, only three files are needed, which should be run on python and Wolfram Mathematica.
+
+## Libraries needed for the python file
+
+![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/Libraries%20needed%20for%20the%20python%20file.png)
+
+## The python file ("Generate Pn and F3_Pn files.py")
+### This file is for generating the $P_n$, $P^2_n$, $F_3(P_n)$ and $F_3^2(P_n)$ graphs automatically and then store them both in a .gml and .html files
+
+Once you have your libraries correctly installed, you just have to run the python file.
+
+When you run it, the program will ask which $P_n$ and $F_3(P_n)$ files do you want to generate? You just have to enter the order $n$ of the path graph as a positive integer and hit Enter (e.g. 12) 
+
+![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/Python_question.png)
+
+Then, once you run it, the program will generate the $P_n, P^2_n, F_3(P_n)$ and $F_3^2(P_n)$ graphs automatically and then store them both in a .gml and .html files
+
+![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/Python_results.png)
+
+When the program is finished running, you should see $8$ files in the same folder as your python file, that is, the $P_n, P^2_n, F_3(P_n)$ and $F_3^2(P_n)$ both in .gml and .html files.
+We recommend storing them on a folder called $Pn$ (where $n$ is a positive integer)
+
+![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/Python_results_2.png)
+
+You can open any html file with any web browser and you should see that graph on your window, you are free to move each node with your cursor in a dynamic way
+
+![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/P8_html.png)
+
+
+## The Wolfram Mathematica file ("Generate CSV.nb")
+### This file is for calculating the exact value for the packing number of the $F_3(P_n)$ graph (e.g., the independence number of the $F_3^2(P_n)$ graph) and visualize the corresponding vertices of that packing set
+
+The .nb file works with the .gml files generated in the previous step, so you should change the first and fourth lines of the file so that it is your own PC's path to the F3square.gml and F3.gml files, respectively, that you want to calculate the exact packing number for
+
+![alt text](https://github.com/TheAlexz/Algorithms-for-packing-number/blob/main/Images/First_and_fourth_lines_of_mathematica_exact_value.png)
+
+Once you are done with these two steps, you are ready to run the Wolfram Mathematica file, for that, hit the "Evaluation" button on the program's tab and then hit the "Evaluate notebook" button as shown
+
+![alt text](https://github.com/TheAlexz/Algorithms-for-packing-number/blob/main/Images/Exact_value_evaluation_mathematica.png)
+
+Then, once it's completed running, it will show the maximum packing set vertices ID's on the second line of output, as shown, (in the case of P5, as shown, the packing number is 3, so three vertices ID's are shown)
+
+![alt text](https://github.com/TheAlexz/Algorithms-for-packing-number/blob/main/Images/Exact_value_mathematica.png)
+
+Finally, for a visual representation, the third and fifth output lines will show the $F_3(P_n) and F_3^2(P_n) graphs$ with its corresponding maximum independent and packing vertices, respectively, highlighted.
+
+![alt text](https://github.com/TheAlexz/Algorithms-for-packing-number/blob/main/Images/Visualize_exact_values_mathematica.png)
+
+# ALGORITHMS-FOR-COMPUTING-A-LOWER-BOUND-FOR-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH.
+
+For computing a lower bound for the packing number of 3 token graph of path graph $P_n$ with n$ge 13#, only three files are needed, which should be run on python, Wolfram Mathematica and $C++$.
 
 ## Libraries needed for the python file
 
