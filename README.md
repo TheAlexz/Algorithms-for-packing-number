@@ -7,7 +7,7 @@ For computing the exact packing number of 3 token graph of path graph $P_n$ with
 ![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/Libraries%20needed%20for%20the%20python%20file.png)
 
 ## The python file ("Generate Pn and F3_Pn files.py")
-### This file is for generating the $P_n$, $P^2_n$, $F_3(P_n)$ and $F_3^2(P_n)$ graphs automatically and then store them both in .gml and .html files
+### This file is for generating the $P_n$, $F_3(P_n)$ and $F_3^2(P_n)$ graphs automatically and then store them both in .gml and .html files
 
 Once you have your libraries correctly installed, you just have to run the python file.
 
@@ -57,7 +57,7 @@ For computing a lower bound for the packing number of 3 token graph of path grap
 ![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/Libraries%20needed%20for%20the%20python%20file.png)
 
 ## The python file ("Generate Pn and F3_Pn files.py")
-### This file is for generating the $P_n$, $P^2_n$, $F_3(P_n)$ and $F_3^2(P_n)$ graphs automatically and then store them both in .gml and .html files
+### This file is for generating the $P_n$, $F_3(P_n)$ and $F_3^2(P_n)$ graphs automatically and then store them both in .gml and .html files
 
 Once you have your libraries correctly installed, you just have to run the python file.
 
