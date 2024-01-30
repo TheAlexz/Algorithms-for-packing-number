@@ -50,7 +50,7 @@ Finally, for a visual representation, the third and fifth output lines will show
 
 # ALGORITHMS-FOR-COMPUTING-A-LOWER-BOUND-FOR-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH.
 
-For computing a lower bound for the packing number of 3 token graph of path graph $P_n$ with n$ge 13#, only three files are needed, which should be run on python, Wolfram Mathematica and $C++$.
+For computing a lower bound for the packing number of 3 token graph of path graph $P_n$ with n$ge 13$, only three files are needed, which should be run on python, Wolfram Mathematica and $C++$.
 
 ## Libraries needed for the python file
 
@@ -76,7 +76,7 @@ We recommend storing them on a folder called $Pn$ (where $n$ is a positive integ
 
 You can open any html file with any web browser and you should see that graph on your window, you are free to move each node with your cursor in a dynamic way
 
-![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/P8_html.png)
+![alt text](https://github.com/TheAlexz/ALGOS-FOR-COMPUTING-THE-LOWER-AND-UPPER-BOUNDS-OF-THE-PACKING-NUMBER-OF-3-TOKEN-GRAPH-OF-PATH-GRAPH./blob/main/Images/P13.png)
 
 
 
