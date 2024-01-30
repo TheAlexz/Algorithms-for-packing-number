@@ -10,13 +10,13 @@ typedef unsigned long long int ulli;
 typedef vector<long long int> vlli;
 
 //How many nodes does the F3(Pn) graph have?
-const ulli F3Pn_nodes = 220;
+const ulli F3Pn_nodes = 286;
 
 //Which node do you want in the second position?
 int second_position_node = 0;
 
 //What's the file path of the GDM_F3(Pn) file?
-string filename = "C:/Users/Joel9/Documents/Investigacion Grafos/Packing and 3token graphs/GDM/GDM_F3(P12).csv";
+string filename = "C:/Users/Joel9/Documents/Investigacion Grafos/Packing and 3token graphs/GDM/GDM_F3(P13).csv";
 
 ulli GDM[F3Pn_nodes][F3Pn_nodes];
 
