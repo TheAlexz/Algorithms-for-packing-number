@@ -2,13 +2,13 @@ cff-version: 1.0.0
 message: "If you use this software, please cite it as below."
 authors:
 - family-names: "Escareño Fernández"
-  given-names: "J. A"
+  given-names: "J. A."
   orcid: "https://orcid.org/0009-0001-2825-231X"
 - family-names: "Ndjatchi"
   given-names: "C."
   orcid: "https://orcid.org/0000-0003-2702-9981"
 - family-names: "Ríos-Castro"
-  given-names: "L. M"
+  given-names: "L. M."
   orcid: "https://orcid.org/0009-0008-9326-1854"
 title: "Algorithms-for-packing-number-of-3-token"
 version: 1.0.0
